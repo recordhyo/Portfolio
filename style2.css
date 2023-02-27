@@ -8,9 +8,13 @@
     font-weight: 300;
     font-family: 'Noto Sans KR', sans-serif;
     /*background-color: #b4c8b5;*/
+
 }
 body{
-    background: #b4c8b5 url(back.png) no-repeat fixed;
+    background-color: #b4c8b5;
+    background-image: url(back.png);
+    background-size:auto;
+    background-repeat:  no-repeat;
 }
 
 .header{
@@ -51,8 +55,8 @@ body{
     opacity: 1;
   }
   .menu a:before {
-    content: '\f105';
-    font-family: fontawesome;
+    /*content: '\f105';
+    font-family: fontawesome;*/
     margin-right: 10px;
     opacity: 0;
   }
