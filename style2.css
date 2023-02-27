@@ -10,8 +10,7 @@
     /*background-color: #b4c8b5;*/
 }
 body{
-    background-image: url('back.png');
-    background-repeat: no-repeat;
+    background: #b4c8b5 url(back.png) no-repeat fixed;
 }
 
 .header{
