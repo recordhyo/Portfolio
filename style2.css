@@ -4,16 +4,50 @@
     list-style: none;
     text-decoration: none;
     color : black;
-    line-height: 1.5em;
     font-weight: 300;
     font-family: 'Noto Sans KR', sans-serif;
     /*background-color: #b4c8b5;*/
 
 }
+
+@media screen and (max-width: 3000px){
+    header{
+        height: 100%;
+    }
+    .menu ul{
+        margin-top: 150px;
+        height: 30%;
+    }
+
+}
+
+@media screen and (max-width: 1280px){
+    header{
+        height: 100%;
+    }
+    .menu ul{
+        margin-top: 100px;
+        height: 30%;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    header{
+        height: 100%;
+    }
+    .menu ul{
+        margin-top: 50px;
+        height: 30%;
+    }
+}
+
+
+
 body{
     background-color: #b4c8b5;
-    background-image: url(back.png);
-    background-size:auto;
+    background-image: url(background.png);
+    background-size : 100%;
     background-repeat:  no-repeat;
 }
 
@@ -24,48 +58,66 @@ body{
 }
 
 .header_logo h1{
-    font : bold 40px 'arial';
-    padding-top:50px;
-    letter-spacing: 2px;
-}
-.header_logo p{
-    font :bold 12px 'arial';
-    letter-spacing: 5px;
+    font : 40px;
+
 }
 
-.menu{
-    position: absolute;
-    top: 450px;
-    transform: translateY(-30%);
-    left: 100px;
-    display: flex;
-    text-align: left;
+.menu ul{
+    /*margin-top: 150px;*/
+    width:  100%;
+    height: 50px;
+
 }
-.menu a {
+
+.menu ul li {
     display: block;
-    font-size: 40px;
-    margin: 30px 0;
-    color: #fff;
+    font-size: 20px;
     transition: 0.5s;
+    height : 100%;
+    width: 20%;
+    float: left;
   }
-  .menu:hover a {
+
+.menu ul li a{
+    display: block;
+    margin : 0px 20px;
+}
+
+.menu:hover a {
     opacity: 0.3;
-  }
-  .menu a:hover {
+}
+.menu a:hover {
     opacity: 1;
-  }
-  .menu a:before {
-    /*content: '\f105';
-    font-family: fontawesome;*/
-    margin-right: 10px;
+}
+/*.menu a.active{
+    opacity: 1;
+}
+.menu a:before {
     opacity: 0;
-  }
-  .menu a:hover:before {
+}
+.menu a:hover:before {
     opacity: 1;
-  }
+}*/
 
 
-/*a{
+section {
+
+	border-top: solid 1px lightgrey;
+}
+/*nav { 
+    margin-top: 100px;
+    margin-right: 50px;
+	float : right ; 
+	width : 80%; 
+	height : 800px; 
+	background-color : #6681a5; 
+}
+footer {
+    float : bottom;
+	height : 100px; 
+	background-color : #bdd1eb; 
+}
+a{
     text-decoration: none;
     color:#000;
 }
