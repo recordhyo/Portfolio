@@ -4,8 +4,8 @@
     list-style: none;
     text-decoration: none;
     color : black;
-    font-weight: 300;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
     /*background-color: #b4c8b5;*/
 
 }
@@ -40,12 +40,13 @@
         margin-top: 50px;
         height: 30%;
     }
+
 }
 
 
 
 body{
-    background-color: #b4c8b5;
+    background-color: #EFF3EE;
     background-image: url(background.png);
     background-size : 100%;
     background-repeat:  no-repeat;
@@ -58,7 +59,7 @@ body{
 }
 
 .header_logo h1{
-    font : 40px;
+    padding: 20px;
 
 }
 
@@ -101,9 +102,16 @@ body{
 
 
 section {
-
 	border-top: solid 1px lightgrey;
 }
+
+.contents {
+    margin-top: 15%;
+    position:relative;
+    text-align: center;
+
+}
+
 /*nav { 
     margin-top: 100px;
     margin-right: 50px;
