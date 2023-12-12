@@ -5,13 +5,14 @@
     text-decoration: none;
     color : black;
     font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: NanumGothic, sans-serif;
+    line-height: 130%;
     /*background-color: #b4c8b5;*/
 
 }
 @media screen and (min-width: 2101px){
     .gnb{
-        top: 30%;
+        top: 45%;
     }
     .gnb a{
         display: block;
@@ -25,7 +26,7 @@
 
 @media screen and (min-width: 1281px) and (max-width: 2100px){
     .gnb{
-        top:23%;
+        top:40%;
     }
     .gnb a{
         display: block;
@@ -38,7 +39,7 @@
 }
 @media screen and (min-width: 721px) and (max-width: 1280px){
     .gnb{
-        top:17%;
+        top:30%;
     }
     .gnb a{
         display: block;
@@ -52,7 +53,7 @@
 
 @media screen and (max-width: 720px){
     .gnb{
-        top:10%;
+        top:20%;
     }
     .gnb a{
         display: block;
@@ -64,29 +65,39 @@
 
 }
 
-
 div{
     width: 100%;
+}
+.page{
+    height: 100vh;
+    padding : 20px;
+}
+
+.body{
+    width: 95%;
     height: 1500px;
 }
 
 .left {
     position: fixed;
-    width: 20%;
+    width: 25%;
+    height: 100vh;
     float: left;
     box-sizing: border-box;
     background: #F0D3A7;
   }
 
 .right {
-    width: 80%;
+    width: 75%;
     float: right;
     box-sizing: border-box;
+    padding: 5%;
   }
 
 .gnb {
     position: absolute;
     text-align: center;
+    margin-top: 3%;
   }
 .gnb a {
     display: block;
@@ -103,10 +114,37 @@ div{
     opacity: 1;
   }
 
+
 .profileimg{
     border-radius: 50%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+
+.rightbody{
+    margin : 5%;
+}
+.intro{
+    font-size: 4vw;
+}
+.intro p{
+    margin-top: 3%;
+}
+
+
+#title{
+    font-weight: 600;
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+
+
+.container {
+    display: flex; /* 플렉스 박스를 사용하여 자식 요소를 가로로 나란히 배치 */
+    align-items: center; /* 수직 가운데 정렬 */
+  }
+.container img {
+    margin-right: 10px; /* 이미지와 텍스트 사이의 간격 조절 (조절 가능) */
   }
