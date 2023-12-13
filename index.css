@@ -21,6 +21,10 @@
         color: #244400;
         transition: 0.5s;
     }
+    .page{
+        height: 100vh;
+        padding : 20px;
+    }
 
 }
 
@@ -35,6 +39,10 @@
         color: #244400;
         transition: 0.5s;
     }
+    .page{
+        height: 100vh;
+        padding : 20px;
+    }
 
 }
 @media screen and (min-width: 721px) and (max-width: 1280px){
@@ -47,6 +55,10 @@
         margin: 20px 0;
         color: #244400;
         transition: 0.5s;
+    }
+    .page{
+        height: 70vh;
+        padding : 16px;
     }
 
 }
@@ -62,16 +74,17 @@
         color: #244400;
         transition: 0.5s;
     }
+    .page{
+        height: 50vh;
+        padding : 12px;
+    }
 
 }
 
 div{
     width: 100%;
 }
-.page{
-    height: 100vh;
-    padding : 20px;
-}
+
 
 .body{
     width: 95%;
@@ -133,14 +146,27 @@ div{
     margin-top: 3%;
 }
 
-
+.about{
+    font-size: 1.3vw;
+}
+.abouttitle{
+    font-size: 1.6vw;
+    font-weight: 600; 
+    margin-bottom: 10px;
+}
+.about p{
+    line-height: 150%;
+}
 #title{
     font-weight: 600;
     font-size: 3vw;
     margin-bottom: 3%;
 }
 
-
+.date {
+    color: grey;
+    font-size: 1.1vw;
+}
 .container {
     display: flex; /* 플렉스 박스를 사용하여 자식 요소를 가로로 나란히 배치 */
     align-items: center; /* 수직 가운데 정렬 */
